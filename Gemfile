@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'sqlite3'
 # Use json to parse json data
 gem 'json', '~> 2.3.0'
-# Use capistrano for deploy
+# Use Capistrano for deployment
 gem 'capistrano', '>= 3.17.2'
 gem 'capistrano-rails', '>= 1.6.2'
 gem 'capistrano-passenger', '>= 0.2.1'
@@ -18,6 +18,8 @@ gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
 #gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano-rails-console', require: false
+# for git tag -l -n1
+gem 'capistrano-deploytags', '~> 1.0.0', require: false , group: :development
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -43,8 +45,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -61,8 +61,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-# for git tag -l -n1
-#  gem 'capistrano-deploytags', '~> 1.0.0', require: false
 end
 
 group :test do

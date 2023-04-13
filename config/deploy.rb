@@ -5,6 +5,13 @@ set :application, "rails501"
 set :repo_url, "git@github.com:alexcode-cc/Rails501.git"
 set :deploy_to, "/home/deploy5/rails501"
 
+# deploy tags
+# view deployment history: git tag -l -n1
+set :deploytag_time_format, "%Y.%m.%d-%H%M%S"
+set :deploytag_utc, false
+#set :no_deploytags, true
+#set :deploytag_commit_message, 'This is my commit message for the deployed tag'
+#
 # rvm vars
 set :rvm_type, :user                      # Defaults to: :auto
 set :rvm_ruby_version, '2.7.6@rails5281'  # Defaults to: 'default'
