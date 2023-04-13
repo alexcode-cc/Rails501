@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/alexcode-cc/Rails501/compare/0.2.1...0.3.0) (2023-04-13)
+
+
+### Features
+
+* modify controllers/views for nested resources ([fb590ad](https://github.com/alexcode-cc/Rails501/commit/fb590ade11df56b14f18c100d2b6153541db3ea0))
+
+
+
 ## [0.2.1](https://github.com/alexcode-cc/Rails501/compare/0.2.0...0.2.1) (2023-04-13)
 
 
