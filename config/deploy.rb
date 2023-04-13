@@ -3,8 +3,12 @@ lock "~> 3.17.2"
 
 set :application, "rails501"
 set :repo_url, "git@github.com:alexcode-cc/Rails501.git"
-
 set :deploy_to, "/home/deploy5/rails501"
+
+# rvm vars
+set :rvm_type, :user                      # Defaults to: :auto
+set :rvm_ruby_version, '2.7.6@rails5281'  # Defaults to: 'default'
+#set :rvm_custom_path, '~/.myrvm'         # only needed if not detected
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -21,6 +25,19 @@ set :deploy_to, "/home/deploy5/rails501"
 
 # Default value for :pty is false
 # set :pty, true
+# run "cd #{:deploy_to}/current; rake db:seed RAILS_ENV=#{rails_env}"
+
+namespace :rvm do
+  desc "load the database with seed data"
+  task :seed do
+    on roles(fetch(:rvm_roles, :all)), wait: 10 do
+      rails_env = fetch(:rails_env, 'production')
+      rvm_path = fetch(:rvm_path, '~/.rvm')
+      rvm_do_prefix = "#{rvm_path}/bin/rvm #{fetch(:rvm_ruby_version)} do"
+      execute "cd #{current_path}; #{rvm_do_prefix} rails db:seed RAILS_ENV=#{rails_env}"
+    end
+  end
+end
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
@@ -55,7 +72,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpack
 # set :keep_releases, 5
 set :keep_releases, 5
 
-set :passenger_restart_with_touch, true
+#set :passenger_restart_with_touch, true
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
