@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/alexcode-cc/Rails501/compare/0.1.2...0.2.0) (2023-04-13)
+
+
+### Features
+
+* scaffold board and post ([aac54bb](https://github.com/alexcode-cc/Rails501/commit/aac54bb24ca4da22580d083e29703be42e734bba))
+
+
+
 ## [0.1.2](https://github.com/alexcode-cc/Rails501/compare/0.1.1...0.1.2) (2023-04-13)
 
 
