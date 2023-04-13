@@ -1,3 +1,15 @@
+## [0.2.1](https://github.com/alexcode-cc/Rails501/compare/0.2.0...0.2.1) (2023-04-13)
+
+
+### Features
+
+* cap task for seed data with rvm ([29ab8c5](https://github.com/alexcode-cc/Rails501/commit/29ab8c5caa625d156387d9a2fb636a99e88cfbfb))
+* cap task for upload master.key & database.yml ([0281ad5](https://github.com/alexcode-cc/Rails501/commit/0281ad58e2f8592f036bb38620cae1f27eb60a9d))
+* enable capistrano deploytags ([066dc26](https://github.com/alexcode-cc/Rails501/commit/066dc268d5e870bdf229f49f733db0d0b24c4269))
+* enable capistrano rails console ([c0cca93](https://github.com/alexcode-cc/Rails501/commit/c0cca9335a453b2426b60e4dc96b8f81b427b69e))
+
+
+
 # [0.2.0](https://github.com/alexcode-cc/Rails501/compare/0.1.2...0.2.0) (2023-04-13)
 
 
