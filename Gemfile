@@ -9,6 +9,15 @@ gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'sqlite3'
 # Use json to parse json data
 gem 'json', '~> 2.3.0'
+# Use capistrano for deploy
+gem 'capistrano', '>= 3.17.2'
+gem 'capistrano-rails', '>= 1.6.2'
+gem 'capistrano-passenger', '>= 0.2.1'
+gem 'capistrano-rvm', '>= 0.1.2'
+gem 'ed25519', '>= 1.2'
+gem 'bcrypt_pbkdf', '>= 1.0'
+#gem 'bcrypt', '~> 3.1.7'
+#gem 'capistrano-rails-console', require: false
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -52,6 +61,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+# for git tag -l -n1
+#  gem 'capistrano-deploytags', '~> 1.0.0', require: false
 end
 
 group :test do
