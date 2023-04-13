@@ -36,7 +36,7 @@ install_plugin Capistrano::SCM::Git
 
 require "capistrano/rvm"
 require "capistrano/rails"
-#require "capistrano/rails/console"
+require "capistrano/rails/console"
 require "capistrano/bundler" 
 require "capistrano/rails/assets"
 require "capistrano/rails/migrations" 

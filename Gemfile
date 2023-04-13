@@ -17,7 +17,7 @@ gem 'capistrano-rvm', '>= 0.1.2'
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
 #gem 'bcrypt', '~> 3.1.7'
-#gem 'capistrano-rails-console', require: false
+gem 'capistrano-rails-console', require: false
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
