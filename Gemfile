@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'sqlite3'
 # Use json to parse json data
 gem 'json', '~> 2.3.0'
+# Use devise for user management
+gem 'devise', '~> 4.9.2'
 # Use Capistrano for deployment
 gem 'capistrano', '>= 3.17.2'
 gem 'capistrano-rails', '>= 1.6.2'
