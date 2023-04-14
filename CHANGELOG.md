@@ -1,3 +1,13 @@
+# [0.6.0](https://github.com/alexcode-cc/Rails501/compare/0.5.0...0.6.0) (2023-04-14)
+
+
+### Features
+
+* use bootstrap with webpack ([dc33070](https://github.com/alexcode-cc/Rails501/commit/dc330705feaac35354d8ac3f6362476632eb36fe))
+* use foreman for webpack ([1f9c4fe](https://github.com/alexcode-cc/Rails501/commit/1f9c4fea75b204449cab81e304734d9e886f0b76))
+
+
+
 # [0.5.0](https://github.com/alexcode-cc/Rails501/compare/0.4.0...0.5.0) (2023-04-14)
 
 
