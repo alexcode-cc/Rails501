@@ -12,9 +12,11 @@
   </head>
 
   <body>
-    <%= render 'shared/user_nav' %>
-    <p class="notice" id="notice" style="color:green;"><%= notice %></p>
-    <p class="alert" id="alert" style="color:red;"><%= alert %></p>
+  <div class="container">
+    <%= render 'shared/navbar' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
+    <%= render 'shared/flash' %>
+  </div>
   </body>
 </html>
