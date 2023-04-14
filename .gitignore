@@ -29,8 +29,8 @@
 
 # Ignore master key for decrypting credentials and more.
 # EDITOR="vim --wait" bin/rails credentials:edit
+#/config/credentials.yml.enc
 /config/master.key
-/config/credentials.yml.enc
 
 /public/packs
 /public/packs-test
@@ -39,3 +39,4 @@
 yarn-debug.log*
 .yarn-integrity
 Gemfile.lock
+
