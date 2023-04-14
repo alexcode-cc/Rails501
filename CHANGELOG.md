@@ -1,3 +1,18 @@
+# [0.4.0](https://github.com/alexcode-cc/Rails501/compare/0.3.0...0.4.0) (2023-04-14)
+
+
+### Bug Fixes
+
+* **gemfile:** add net-http gem for fix Net::ProtocRetryError warning ([1061d9c](https://github.com/alexcode-cc/Rails501/commit/1061d9cf9b30bb97c89abfd5275db05ce7d71b02))
+* **production.rb:** fail to load assets application css bug ([18017cb](https://github.com/alexcode-cc/Rails501/commit/18017cb330fcd954eaa68613768fc4ee77390be5))
+
+
+### Features
+
+* use devise for user management ([31ffe45](https://github.com/alexcode-cc/Rails501/commit/31ffe4537d4700b7db02b69af4096d76d5822c88))
+
+
+
 # [0.3.0](https://github.com/alexcode-cc/Rails501/compare/0.2.1...0.3.0) (2023-04-13)
 
 
