@@ -13,6 +13,8 @@ gem 'json', '~> 2.3.0'
 gem 'devise', '~> 4.9.2'
 # Use kaminari for paginate
 gem 'kaminari', '~> 1.2.2'
+# Use foreman for run server batch
+gem 'foreman', '~> 0.87.2'
 # Use Capistrano for deployment
 gem 'capistrano', '>= 3.17.2'
 gem 'capistrano-rails', '>= 1.6.2'
