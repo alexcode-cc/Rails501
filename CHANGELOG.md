@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/alexcode-cc/Rails501/compare/0.4.0...0.5.0) (2023-04-14)
+
+
+### Features
+
+* use kaminari for paginate ([c714e0e](https://github.com/alexcode-cc/Rails501/commit/c714e0ef504e2d6fd16cea4da87ceeb4c2d84619))
+
+
+
 # [0.4.0](https://github.com/alexcode-cc/Rails501/compare/0.3.0...0.4.0) (2023-04-14)
 
 
