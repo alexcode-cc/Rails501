@@ -11,6 +11,8 @@ gem 'sqlite3'
 gem 'json', '~> 2.3.0'
 # Use devise for user management
 gem 'devise', '~> 4.9.2'
+# Use kaminari for paginate
+gem 'kaminari', '~> 1.2.2'
 # Use Capistrano for deployment
 gem 'capistrano', '>= 3.17.2'
 gem 'capistrano-rails', '>= 1.6.2'
